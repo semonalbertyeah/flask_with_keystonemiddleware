@@ -1,16 +1,13 @@
 # -*- coding:utf-8 -*-
 
 """
-    vmd user rest api
+    test url
 """
 
 from flask import request
 
-from vmd_rest.wrapper import json_response, empty_json_response
+from kapp.wrapper import json_response, empty_json_response
 
-from .. import vmd_db as db
-from ..vmd_db import VMDDBError
-from ..mission import Mission, execute_mission
 from .lazy import lazy_app
 
 

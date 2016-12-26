@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 """
-    URL handlers for vmd rest api.
+    a sub-app template.
 """
 
 import os
