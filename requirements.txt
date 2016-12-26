@@ -1,0 +1,6 @@
+flask
+waitress
+python-dateutil
+PasteDeploy
+keystonemiddleware
+oslo.policy

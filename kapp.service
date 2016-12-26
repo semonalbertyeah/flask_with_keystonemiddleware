@@ -1,0 +1,8 @@
+[Unit]
+Description=Flask with keystone.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/kapp_manage start
+ExecStop=/usr/bin/kapp_manage stop
+

@@ -1,0 +1,13 @@
+{
+    "admin_required": "role:admin or is_admin:1",
+
+    "target_role": "role:%(target_role)s",
+    "target_project": "project.id:%(target_project_id)s or project.name:%(target_project_name)s",
+    "target_project_domain": "project.domain.id:%(target_project_domain_id)s or project.domain.name:%(target_domain_name)s",
+    "v3": "rule:target_role and rule:target_project and rule:target_project_domain",
+
+    "target_tenant": "tenant.id:%(target_tenant_id)s or tenant.name:%(target_tenant_name)s",
+    "v2:": "rule:target_role and rule:target_tenant",
+
+    "kapp:all": "rule:admin_required or rule:v3 or rule:v2"
+}

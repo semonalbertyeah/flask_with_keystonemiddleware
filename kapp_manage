@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+# try:
+#     from kapp import manage
+# except ImportError as e:
+#     import sys, os
+#     CUR_DIR = os.path.dirname(os.path.abspath(__file__))
+#     sys.path.insert(0, CUR_DIR)
+# 
+#     from kapp import manage
+
+from kapp import manage
+
+if __name__ == '__main__':
+    manage.exe_cmd()

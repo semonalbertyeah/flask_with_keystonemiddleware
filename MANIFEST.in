@@ -1,0 +1,5 @@
+include README.md
+include kapp_manage
+include etc *
+
+
